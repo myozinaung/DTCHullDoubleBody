@@ -1,0 +1,324 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10-c4cf895ad8fa
+Exec   : refineMesh -dict refineMeshDict -overwrite
+Date   : May 23 2023
+Time   : 13:00:40
+Host   : "NAOME-LAPTOP088"
+PID    : 7912
+I/O    : uncollated
+Case   : /mnt/c/Users/hwb21208/DTCHullDoubleBody/DTCHullDoubleBody
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Mesh edge statistics:
+    x aligned :  number:88200	minLen:1	maxLen:1
+    y aligned :  number:85785	minLen:1	maxLen:1
+    z aligned :  number:89440	minLen:0.014	maxLen:0.933497
+    other     :  number:0	minLen:4.5036e+15	maxLen:-4.5036e+15
+
+Reading "refineMeshDict"
+
+Refining according to "/mnt/c/Users/hwb21208/DTCHullDoubleBody/DTCHullDoubleBody/system"
+
+Read 9000 cells from cellSet "constant/polyMesh/sets/c1"
+
+Global Coordinate system:
+     e3 : (0 0 1)
+     e1   : (1 0 0)
+     e2   : (0 1 0)
+
+Writing refined cells (36000) to cellSet "constant/polyMesh/sets/refinedCells"
+
+Writing map from new to old cell to "0/polyMesh/cellMap"
+
+Mesh edge statistics:
+    x aligned :  number:117080	minLen:0.5	maxLen:1
+    y aligned :  number:113601	minLen:0.5	maxLen:1
+    z aligned :  number:118390	minLen:0.014	maxLen:0.933497
+    other     :  number:0	minLen:4.5036e+15	maxLen:-4.5036e+15
+
+End
+
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10-c4cf895ad8fa
+Exec   : refineMesh -dict refineMeshDict -overwrite
+Date   : May 23 2023
+Time   : 13:00:42
+Host   : "NAOME-LAPTOP088"
+PID    : 7919
+I/O    : uncollated
+Case   : /mnt/c/Users/hwb21208/DTCHullDoubleBody/DTCHullDoubleBody
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Mesh edge statistics:
+    x aligned :  number:117080	minLen:0.5	maxLen:1
+    y aligned :  number:113601	minLen:0.5	maxLen:1
+    z aligned :  number:118390	minLen:0.014	maxLen:0.933497
+    other     :  number:0	minLen:4.5036e+15	maxLen:-4.5036e+15
+
+Reading "refineMeshDict"
+
+Refining according to "/mnt/c/Users/hwb21208/DTCHullDoubleBody/DTCHullDoubleBody/system"
+
+Read 12096 cells from cellSet "constant/polyMesh/sets/c2"
+
+Global Coordinate system:
+     e3 : (0 0 1)
+     e1   : (1 0 0)
+     e2   : (0 1 0)
+
+Writing refined cells (48384) to cellSet "constant/polyMesh/sets/refinedCells"
+
+Writing map from new to old cell to "0/polyMesh/cellMap"
+
+Mesh edge statistics:
+    x aligned :  number:155916	minLen:0.25	maxLen:1
+    y aligned :  number:150831	minLen:0.25	maxLen:1
+    z aligned :  number:157126	minLen:0.014	maxLen:0.933497
+    other     :  number:0	minLen:4.5036e+15	maxLen:-4.5036e+15
+
+End
+
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10-c4cf895ad8fa
+Exec   : refineMesh -dict refineMeshDict -overwrite
+Date   : May 23 2023
+Time   : 13:00:44
+Host   : "NAOME-LAPTOP088"
+PID    : 7922
+I/O    : uncollated
+Case   : /mnt/c/Users/hwb21208/DTCHullDoubleBody/DTCHullDoubleBody
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Mesh edge statistics:
+    x aligned :  number:155916	minLen:0.25	maxLen:1
+    y aligned :  number:150831	minLen:0.25	maxLen:1
+    z aligned :  number:157126	minLen:0.014	maxLen:0.933497
+    other     :  number:0	minLen:4.5036e+15	maxLen:-4.5036e+15
+
+Reading "refineMeshDict"
+
+Refining according to "/mnt/c/Users/hwb21208/DTCHullDoubleBody/DTCHullDoubleBody/system"
+
+Read 14256 cells from cellSet "constant/polyMesh/sets/c3"
+
+Global Coordinate system:
+     e3 : (0 0 1)
+     e1   : (1 0 0)
+     e2   : (0 1 0)
+
+Writing refined cells (57024) to cellSet "constant/polyMesh/sets/refinedCells"
+
+Writing map from new to old cell to "0/polyMesh/cellMap"
+
+Mesh edge statistics:
+    x aligned :  number:201896	minLen:0.125	maxLen:1
+    y aligned :  number:194721	minLen:0.125	maxLen:1
+    z aligned :  number:202594	minLen:0.014	maxLen:0.933497
+    other     :  number:0	minLen:4.5036e+15	maxLen:-4.5036e+15
+
+End
+
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10-c4cf895ad8fa
+Exec   : refineMesh -dict refineMeshDict -overwrite
+Date   : May 23 2023
+Time   : 13:00:47
+Host   : "NAOME-LAPTOP088"
+PID    : 7925
+I/O    : uncollated
+Case   : /mnt/c/Users/hwb21208/DTCHullDoubleBody/DTCHullDoubleBody
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Mesh edge statistics:
+    x aligned :  number:201896	minLen:0.125	maxLen:1
+    y aligned :  number:194721	minLen:0.125	maxLen:1
+    z aligned :  number:202594	minLen:0.014	maxLen:0.933497
+    other     :  number:0	minLen:4.5036e+15	maxLen:-4.5036e+15
+
+Reading "refineMeshDict"
+
+Refining according to "/mnt/c/Users/hwb21208/DTCHullDoubleBody/DTCHullDoubleBody/system"
+
+Read 21312 cells from cellSet "constant/polyMesh/sets/c4"
+
+Global Coordinate system:
+     e3 : (0 0 1)
+     e1   : (1 0 0)
+     e2   : (0 1 0)
+
+Writing refined cells (85248) to cellSet "constant/polyMesh/sets/refinedCells"
+
+Writing map from new to old cell to "0/polyMesh/cellMap"
+
+Mesh edge statistics:
+    x aligned :  number:270296	minLen:0.0625	maxLen:1
+    y aligned :  number:260689	minLen:0.0625	maxLen:1
+    z aligned :  number:269490	minLen:0.014	maxLen:0.933497
+    other     :  number:0	minLen:4.5036e+15	maxLen:-4.5036e+15
+
+End
+
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10-c4cf895ad8fa
+Exec   : refineMesh -dict refineMeshDict -overwrite
+Date   : May 23 2023
+Time   : 13:00:51
+Host   : "NAOME-LAPTOP088"
+PID    : 7928
+I/O    : uncollated
+Case   : /mnt/c/Users/hwb21208/DTCHullDoubleBody/DTCHullDoubleBody
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Mesh edge statistics:
+    x aligned :  number:270296	minLen:0.0625	maxLen:1
+    y aligned :  number:260689	minLen:0.0625	maxLen:1
+    z aligned :  number:269490	minLen:0.014	maxLen:0.933497
+    other     :  number:0	minLen:4.5036e+15	maxLen:-4.5036e+15
+
+Reading "refineMeshDict"
+
+Refining according to "/mnt/c/Users/hwb21208/DTCHullDoubleBody/DTCHullDoubleBody/system"
+
+Read 30000 cells from cellSet "constant/polyMesh/sets/c5"
+
+Global Coordinate system:
+     e3 : (0 0 1)
+     e1   : (1 0 0)
+     e2   : (0 1 0)
+
+Writing refined cells (120000) to cellSet "constant/polyMesh/sets/refinedCells"
+
+Writing map from new to old cell to "0/polyMesh/cellMap"
+
+Mesh edge statistics:
+    x aligned :  number:367016	minLen:0.03125	maxLen:1
+    y aligned :  number:354549	minLen:0.03125	maxLen:1
+    z aligned :  number:362740	minLen:0.014	maxLen:0.933497
+    other     :  number:0	minLen:4.5036e+15	maxLen:-4.5036e+15
+
+End
+
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10-c4cf895ad8fa
+Exec   : refineMesh -dict refineMeshDict -overwrite
+Date   : May 23 2023
+Time   : 13:00:56
+Host   : "NAOME-LAPTOP088"
+PID    : 7931
+I/O    : uncollated
+Case   : /mnt/c/Users/hwb21208/DTCHullDoubleBody/DTCHullDoubleBody
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Mesh edge statistics:
+    x aligned :  number:367016	minLen:0.03125	maxLen:1
+    y aligned :  number:354549	minLen:0.03125	maxLen:1
+    z aligned :  number:362740	minLen:0.014	maxLen:0.933497
+    other     :  number:0	minLen:4.5036e+15	maxLen:-4.5036e+15
+
+Reading "refineMeshDict"
+
+Refining according to "/mnt/c/Users/hwb21208/DTCHullDoubleBody/DTCHullDoubleBody/system"
+
+Read 69984 cells from cellSet "constant/polyMesh/sets/c6"
+
+Global Coordinate system:
+     e3 : (0 0 1)
+     e1   : (1 0 0)
+     e2   : (0 1 0)
+
+Writing refined cells (279936) to cellSet "constant/polyMesh/sets/refinedCells"
+
+Writing map from new to old cell to "0/polyMesh/cellMap"
+
+Mesh edge statistics:
+    x aligned :  number:592736	minLen:0.015625	maxLen:1
+    y aligned :  number:576507	minLen:0.015625	maxLen:1
+    z aligned :  number:576904	minLen:0.014	maxLen:0.933497
+    other     :  number:0	minLen:4.5036e+15	maxLen:-4.5036e+15
+
+End
+

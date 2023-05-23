@@ -1,0 +1,77 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      binary;
+    class       volVectorField;
+    location    "0";
+    object      U;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 1 -1 0 0 0 0];
+
+internalField   uniform (-1.668 0 0);
+
+boundaryField
+{
+    inlet
+    {
+        type            fixedValue;
+        value           nonuniform List<vector> 
+0
+;
+    }
+    outlet
+    {
+        type            outletPhaseMeanVelocity;
+        UnMean          
+        {
+            type            constant;
+            value           1.668;
+        }
+        alpha           alpha.water;
+        value           nonuniform List<vector> 
+0
+;
+    }
+    waterplane
+    {
+        type            symmetryPlane;
+    }
+    bottom
+    {
+        type            symmetryPlane;
+    }
+    side
+    {
+        type            symmetryPlane;
+    }
+    midPlane
+    {
+        type            symmetryPlane;
+    }
+    hull
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+    procBoundary6to0
+    {
+        type            processor;
+        value           uniform (-1.668 0 0);
+    }
+    procBoundary6to7
+    {
+        type            processor;
+        value           uniform (-1.668 0 0);
+    }
+}
+
+
+// ************************************************************************* //
