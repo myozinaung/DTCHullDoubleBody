@@ -14,8 +14,10 @@ cd ${0%/*} || exit 1    # Run from this directory
 
 # runApplication decomposePar
 
-runParallel potentialFoam
+# runParallel potentialFoam
+# runApplication potentialFoam
 # runParallel $(getApplication)
+runApplication $(getApplication)
 
 # runApplication reconstructParMesh -constant
 # runApplication reconstructPar
