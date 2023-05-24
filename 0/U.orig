@@ -31,11 +31,18 @@ boundaryField
         value           $internalField;
     }
 
+    // outlet
+    // {
+    //     type            outletPhaseMeanVelocity;
+    //     alpha           alpha.water;
+    //     UnMean          $UMean;
+    //     value           $internalField;
+    // }
+
     outlet
     {
-        type            outletPhaseMeanVelocity;
-        alpha           alpha.water;
-        UnMean          $UMean;
+        type            inletOutlet;
+        inletValue      uniform (0 0 0);
         value           $internalField;
     }
 
@@ -51,6 +58,11 @@ boundaryField
         type            movingWallVelocity;
         value           uniform (0 0 0);
     }
+
+    // hull // MotorBike
+    // {
+    //     type            noSlip;
+    // }
 }
 
 

@@ -56,6 +56,9 @@ functions
         writeControl    timeStep;
         writeInterval   1;
         CofR            (2.929541 0 0.2);
+
+        rho rhoInf; // Indicates incompressible
+        rhoInf 998.8;   // Redundant for incompressible
     }
 }
 

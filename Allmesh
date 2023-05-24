@@ -23,7 +23,6 @@ done
 rm -rf constant/polyMesh/sets
 
 runApplication snappyHexMesh -overwrite
-# runParallel snappyHexMesh -overwrite
 
 runApplication renumberMesh -noFields -overwrite
 

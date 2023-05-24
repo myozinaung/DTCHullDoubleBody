@@ -10,14 +10,12 @@ cd ${0%/*} || exit 1    # Run from this directory
 #     ./Allmesh
 # fi
 
-# runApplication setFields
 
-# runApplication decomposePar
+runApplication decomposePar
 
-# runParallel potentialFoam
-# runApplication potentialFoam
+runParallel potentialFoam
+
 # runParallel $(getApplication)
-runApplication $(getApplication)
 
 # runApplication reconstructParMesh -constant
 # runApplication reconstructPar
