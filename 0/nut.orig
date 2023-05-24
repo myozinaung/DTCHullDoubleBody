@@ -34,11 +34,6 @@ boundaryField
         type            zeroGradient;
     }
 
-    // atmosphere
-    // {
-    //     type            zeroGradient;
-    // }
-
     hull
     {
         type            nutkRoughWallFunction;

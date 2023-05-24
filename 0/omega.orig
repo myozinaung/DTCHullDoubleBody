@@ -36,13 +36,6 @@ boundaryField
        value           $internalField;
     }
 
-    // atmosphere
-    // {
-    //     type            inletOutlet;
-    //     inletValue      $internalField;
-    //     value           $internalField;
-    // }
-
     hull
     {
         type            omegaWallFunction;

@@ -31,27 +31,12 @@ boundaryField
         value           $internalField;
     }
 
-    // outlet
-    // {
-    //     type            outletPhaseMeanVelocity;
-    //     alpha           alpha.water;
-    //     UnMean          $UMean;
-    //     value           $internalField;
-    // }
-
     outlet
     {
         type            inletOutlet;
         inletValue      uniform (0 0 0);
         value           $internalField;
     }
-
-    // atmosphere
-    // {
-    //     type            pressureInletOutletVelocity;
-    //     tangentialVelocity $internalField;
-    //     value           uniform (0 0 0);
-    // }
 
     hull
     {
