@@ -56,9 +56,10 @@ relaxationFactors
 {
     equations
     {
-        U 0.9;
-        k 0.5;
-        omega 0.5;
+        // ".*" 1; // DTCHull
+        U           0.9; // MotorBike
+        k           0.5; // MotorBike
+        omega       0.5; // MotorBike
     }
 }
 

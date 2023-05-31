@@ -30,9 +30,9 @@ divSchemes
 {
 
     default         none;
+    div(phi,U)      bounded Gauss linearUpwindV grad(U);
     div(phi,k)      Gauss linearUpwind limitedGrad;
     div(phi,omega)  Gauss linearUpwind limitedGrad;    
-    div(phi,U)      bounded Gauss linearUpwindV grad(U);
     div((nuEff*dev2(T(grad(U))))) Gauss linear;
 }
 

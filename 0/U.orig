@@ -40,7 +40,7 @@ boundaryField
 
     hull
     {
-        type            movingWallVelocity;
+        type            movingWallVelocity; // noSlip should be enough since the body is fixed
         value           uniform (0 0 0);
     }
 
