@@ -1,0 +1,34 @@
+- AllMesh     : No change
+- AllRun      : - removed setFields since single phase
+                - added potentialFoam for solution initilization
+                - Optional: added reconstructParMesh -constant
+
+- blockMeshDict : - removed 12 vertices for last 3 planes (above water)
+                  - removed last 3 blocks (above water)
+                  - removed atmosphere boundary
+                  - added waterplane boundary with faces (12 15 14 13) vertices
+                  - removed last 3 faces(above water) from inlet, outlet, side and midPlane
+
+- controlDict     - change application from interFoam to simpleFoam
+                  - reduced endTime from 4000 to 600
+                  - added rhoInf and rho in the forces function (needed to include density effect in force calculations)
+
+- fvSchemes       - change ddtSchemes from localEuler to steadyState
+                  - divSchemes - removed the one with alpha
+                               - replace the one with rho to the one without rho
+                               - added default none (optional)
+
+- fvSolution      - replace PIMPLE with SIMPLE and respective options
+                  - added potentialFlow options
+                  - modified relaxationFactors (optional)
+                  - removed alpha.water, pcorr and p_rgh
+                  - added p and Phi
+                  - modified (U|k|omega) tolerance (optional)
+
+- Removed atmosphere boundary from k.orig, nut.orig, omega.orig and U.orig
+- Removed alpha.water.orig and p_rgh.orig and pointDisplacement.orig
+- Added p.orig (settings taken from MotroBike example)
+
+- U.orig          - outlet  - change type from outletPhaseMeanVelocity to inletOutlet
+                            - remove alpha and UnMean
+                            - added inletValue uniform (0 0 0)
